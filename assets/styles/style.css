@@ -1,0 +1,1904 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p,li {
+    font-family: Roboto, sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+   background-color: #ffae00;
+    
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9b3a24;
+}
+
+/*Menu*/
+
+.menu-field {
+    width: auto;
+    height: 80px;
+    background-color: #BA371A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.logo {
+    width: 200px;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: helvetica;
+    margin-right: 8%;
+}
+
+.m-item {
+    padding-top: 1.8rem;
+    font-size: 20px;
+    color: white;
+    &:hover{
+        color: #ffae00;
+        cursor: pointer;
+    }
+}
+
+/* Conigurações faixa 1*/
+.faixa1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+
+    height: 40rem;
+    width: auto;
+    
+
+    background-image: url(../images/f1-bolo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.docelita-logo-banner {
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+}
+
+.faixa1-card {
+
+    background-color: #FFC9A1;
+    width: 40rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 8rem;
+    padding: 5rem;
+    
+}
+
+.faixa1-texts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.titulo-f1 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    line-height: 5rem;
+    color: #000000;
+}
+
+.paragrafo-f1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-right: 3rem;
+}
+
+/*Faixa 2*/
+
+.faixa2 {
+
+    height: 49rem;
+    width: auto;
+    padding: 2rem;
+    
+
+    background-color: #FFE1BE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.f2-header {
+    padding: 2rem 2rem 1rem 2rem;
+    margin-left: 3.5rem;
+    font-size: 2.5rem;
+    color: #BA371A;
+}
+
+.f2-card-collection {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+   
+}
+
+.f2-card {
+
+    background-color: #FFC9A1;
+    margin: 2rem;
+    height: 30rem;
+    width: 27rem;
+    border-radius: 1rem;
+
+}
+
+.card-header {
+
+    padding: 1rem 0 1rem 1.5rem;
+    font-size: 1.5rem;
+    color: #BA371A;
+
+
+}
+
+.card-text {
+    padding: 0 1.5rem 0 1.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.card-image {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/*Faixa 3*/
+
+.faixa3 {
+
+    height: 30rem;
+    width: auto;
+    
+
+    background-color: #BA371A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.f3-image {
+    max-width: 100%;
+    height: 100%;
+
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.f3-text-field {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    margin: 0;
+    width: 150ch;
+
+}
+
+.f3-title {
+    
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.f3-texts {
+    
+  
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    text-align: justify;
+
+    padding-top: .70rem;
+}
+
+/*Faixa 4*/
+
+.faixa4 {
+    height: 20rem;
+    width: auto;
+    
+
+    background-color: #FFE1BE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem;
+
+    color: #BA371A;
+   
+    
+}
+
+.f4-title {
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.f4-text {
+    
+    font-size: 1.6rem;
+    text-align: justify;
+   
+}
+
+/*Faixa 5*/
+
+.faixa5 {
+
+    height: 30rem;
+    width: auto;
+    
+
+    background-color: #FFC9A1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 2rem;
+}
+
+.f5-image {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+    
+}
+
+.f5-text-field {
+
+    width: 130rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+.f5-title {
+    
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #BA371A;
+}
+
+.f5-main-text {
+    
+    
+    font-size: 1.3rem;
+    text-align: justify;
+    color: black;
+    line-height: 2rem;
+}
+
+.faixa6 {
+
+    height: 40rem;
+    width: auto;
+
+    background-color: #FFE1BE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 6rem 3rem 6rem;
+}
+
+.f6-text {
+
+    font-size: 2.5rem;
+    width: 40rem;
+    color: #9b3a24;
+    margin: 2rem;
+
+
+}
+
+.adress-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem ;
+    background-color: #BA371A;
+    padding: 1.5rem;
+    width: 42rem;
+    height: 15rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+.end-card-title {
+    font-size: 1.5rem;
+
+}
+
+.end-card-text {
+    padding-top: 7%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+}
+
+.form-area {
+    background-color: #BA371A;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.form-content {
+    font-family: Helvetica;
+    color: white;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+label {
+    font-size: .9rem;
+    display: block;
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+input, textarea {
+    padding: .5rem;
+    border-radius: 5px;
+    border-style: none;
+}
+
+input, textarea::placeholder {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+textarea {
+    width: auto;
+    height: 8rem;
+}
+
+.botao-branco {
+    color: #BA371A;
+    font-weight: 600;
+    margin: 30px auto 30px auto;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    &:hover {
+        color: white;
+        background-color: #ffae00;
+    }
+}
+
+
+.botao {
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    margin: 0 auto 0 auto;
+    padding: .5rem;
+    background-color: #BA371A;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+        &:hover {
+            color: white;
+            background-color: #ffae00;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #BA371A;
+}
+
+.footer-docelita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.footer-content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.docelita-logo-footer {
+    width: 12rem;
+    margin-left: 5rem;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.footer-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+   
+}
+
+.social-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding: .10rem;
+}
+
+.social-icon {
+    width: 40px;
+    padding: .50rem;
+    
+}
+
+.social-icon:hover {
+    fill: #ffae00;
+}
+
+.footer-text {
+    padding: 1rem;
+    font-family: Roboto, sans-serif;
+}
+
+.copyright {
+    margin-bottom: 2rem;
+}
+
+
+
+@media screen and (max-width: 1600px){
+    main{
+        width: 100%;
+    }
+
+    /*Faixa 2*/
+
+    .faixa2 {
+
+        height: 43rem;
+        width: auto;
+        padding: 2rem;
+        
+    
+        background-color: #FFE1BE;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+    
+        
+        
+    }
+    
+    .f2-header {
+        padding: 1rem 1rem 1rem 1rem;
+        margin-left: 1rem;
+        font-size: 2rem;
+        color: #BA371A;
+    }
+    
+    .f2-card-collection {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+       
+    }
+    
+    .f2-card {
+    
+        background-color: #FFC9A1;
+        margin: 2rem;
+        height: 25rem;
+        width: 27rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .card-header {
+    
+        padding: 1rem 0 1rem 1.5rem;
+        font-size: 1.2rem;
+        color: #BA371A;
+    
+    
+    }
+    
+    .card-text {
+        padding: 0 1.5rem 0 1.5rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+    
+    .card-image {
+        max-width: 100%;
+        border-radius: 15px;
+    }
+
+    /*Faixa 3*/
+
+    .faixa3 {
+
+        height: 25rem;
+        width: auto;
+        
+    
+        background-color: #BA371A;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .f3-title{
+        margin-left: 3.5rem;
+    }
+    
+    .f3-texts {
+        
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.7rem;
+        text-align: justify;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    
+    /*Faixa 4*/
+    
+    .faixa4 {
+        height: 15rem;
+        width: auto;
+        
+    
+        background-color: #FFE1BE;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8rem;
+
+    
+        color: #BA371A;
+       
+        
+    }
+    
+    .f4-title {
+    
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .f4-text {
+        
+        font-size: 1.5rem;
+        text-align: justify;
+       
+    }
+    
+
+    /*Faixa 3*/
+
+    /*Faixa 4*/
+
+    /*Faixa 5*/
+
+.faixa5 {
+
+    height: 30rem;
+    width: auto;
+    
+
+    background-color: #FFC9A1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.f5-text-field {
+
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2rem 3rem 1rem 2.5rem;
+}
+
+.f5-title {
+    
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #BA371A;
+}
+
+.f5-main-text {
+    
+    
+    font-size: 1rem;
+    text-align: justify;
+    color: black;
+    line-height: 1.7rem;
+}
+
+/*Faixa 6*/
+
+.faixa6 {
+
+    height: 40rem;
+    width: auto;
+
+    background-color: #FFE1BE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 6rem 3rem 6rem;
+}
+
+.f6-text {
+
+    font-size: 2rem;
+    width: 30rem;
+    color: #9b3a24;
+    margin: 2rem;
+
+
+}
+
+.adress-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem ;
+    background-color: #BA371A;
+    padding: 1.5rem;
+    width: 30rem;
+    height: 15rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+.end-card-title {
+    font-size: 1.3rem;
+
+}
+
+.end-card-text {
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+.form-area {
+    background-color: #BA371A;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .f3-title {
+        
+        padding-bottom: 0rem;
+        font-size: 2rem;
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .faixa5 {
+
+        height: 20rem;
+        width: auto;
+        
+    
+        background-color: #FFC9A1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        padding: 2rem;
+    }
+
+    .f5-image {
+        max-width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        padding: 1rem;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .f5-image {
+        display: none;
+        
+    }
+
+    .faixa5 {
+
+        height: 22rem;
+        width: auto;
+        
+    
+        background-color: #FFC9A1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 3rem;
+        
+    }
+
+    .f5-text-field {
+    
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    }
+    
+    .f5-title {
+        
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        color: #BA371A;
+    }
+    
+    .f5-main-text {
+        
+        
+        font-size: 1rem;
+        text-align: justify;
+        color: black;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    main{
+        width: 100%;
+    }
+
+    #botao-menu {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 4rem;
+        width: 15rem;
+        margin: 0 auto 0 auto;
+        padding: .5rem;
+        background-color: #BA371A;
+        border-radius: 2rem;
+        border-style: none;
+        cursor: pointer;
+            &:hover {
+                color: white;
+                background-color: #ffae00;
+        }
+    }
+
+    /*Faixa 1*/
+
+    .faixa1 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between ;
+        align-items: center;
+    
+        height: 30rem;
+        width: auto;
+        
+    
+        background-image: url(../images/f1-bolo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .docelita-logo-banner {
+        width: 70%;
+        padding: .5rem;
+        margin: .5rem 2rem .5rem 2rem;
+    }
+    
+    .faixa1-card {
+    
+        background-color: #FFC9A1;
+        width: 20rem;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 8rem;
+        padding: 1.5rem;
+        
+    }
+    
+    .faixa1-texts {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .titulo-f1 {
+        font-size: 2.5rem;
+        padding-bottom: .5rem;
+        line-height: 2.7rem;
+        color: #000000;
+    }
+    
+    .paragrafo-f1 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding-right: .5rem;
+    }
+    
+    /*Faixa 2*/
+
+    .faixa2 {
+
+        height: 126rem;
+        width: auto;
+        padding: 1rem;
+        
+    
+        background-color: #FFE1BE;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+    
+        
+        
+    }
+    
+    .f2-header {
+        margin: 1rem auto 0 auto;
+        font-size: 2.5rem;
+        color: #BA371A;
+    }
+    
+    .f2-card-collection {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        margin: .5rem auto .5rem auto;
+    
+       
+    }
+    
+    .f2-card {
+    
+        background-color: #FFC9A1;
+        height: 33rem;
+        width: 37rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .card-header {
+    
+        padding: 1rem 0 1rem 1.5rem;
+        font-size: 1.5rem;
+        color: #BA371A;
+    
+    
+    }
+    
+    .card-text {
+        padding: 0 1.5rem 0 1.5rem;
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+    
+    .card-image {
+        max-width: 100%;
+        border-radius: 15px;
+    }
+
+    /*Faixa 3*/
+
+    .faixa3 {
+
+        height: 23rem;
+        width: auto;
+        
+    
+        background-color: #BA371A;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: .1rem;
+
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .f3-image {
+        height: 100%;
+        display: none;
+        
+    }
+    
+    .f3-text-field {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .f3-title {
+        
+        padding: .5 auto .5 auto;
+        margin: 0 auto 0 auto;
+        font-size: 2.5rem;
+        align-items: center;
+        width: 68%;
+    }
+    
+    .f3-texts {
+        
+        width: 75%;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+
+    /*Faixa 4*/
+
+    .faixa4 {
+        height: 20rem;
+        width: auto;
+        
+    
+        background-color: #FFE1BE;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 6rem;
+    
+        color: #BA371A;
+       
+        
+    }
+    
+    .f4-title {
+    
+        font-size: 2.5rem;
+        padding-bottom: .9rem;
+    }
+    
+    .f4-text {
+        
+        font-size: 1.3rem;
+        text-align: justify;
+       
+    }
+
+    /*Faixa 5*/
+
+    .faixa5 {
+
+        height: 61rem;
+        width: auto;
+        
+    
+        background-color: #FFC9A1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 3rem;
+        
+    }
+    
+    .f5-image {
+        width: 100%;
+        height: auto;
+        border-radius: 2rem;
+        display: flex;
+        
+    }
+    
+    .f5-text-field {
+    
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    }
+    
+    .f5-title {
+        
+        padding-bottom: 1rem;
+        font-size: 2.5rem;
+        color: #BA371A;
+    }
+    
+    .f5-main-text {
+        
+        
+        font-size: 1.3rem;
+        text-align: justify;
+        color: black;
+        line-height: 2rem;
+    }
+
+    /*Faixa 6*/
+
+    .faixa6 {
+
+        height: 70rem;
+        width: auto;
+    
+        background-color: #FFE1BE;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        align-items: center;
+    }
+    
+    .f6-text {
+    
+        font-size: 2.5rem;
+        width: 40rem;
+        color: #9b3a24;
+        margin: 2rem;
+    
+    
+    }
+    
+    .adress-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem ;
+        background-color: #BA371A;
+        padding: 1.5rem;
+        width: 42rem;
+        height: 15rem;
+        color: white;
+        border-radius: 1rem;
+    }
+    
+    
+    .end-card-title {
+        font-size: 1.5rem;
+    
+    }
+    
+    .end-card-text {
+        padding-top: 7%;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    
+    }
+    
+    .form-area {
+        background-color: #BA371A;
+        border-radius: 1rem;
+        width: 40rem;
+        height: 33rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    
+    .form-content {
+        font-family: Helvetica;
+        color: white;
+        font-size: 1.5rem;
+    
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    
+    label {
+        font-size: .9rem;
+        display: block;
+        margin: .5rem;
+        text-transform: uppercase;
+    }
+    
+    input, textarea {
+        padding: .5rem;
+        border-radius: 5px;
+        border-style: none;
+    }
+    
+    textarea {
+        width: auto;
+        height: 8rem;
+    }
+    
+    .botao-branco {
+        color: #BA371A;
+        font-weight: 600;
+        margin: 30px auto 30px auto;
+        width: 200px;
+        background-color: white;
+        border-radius: 20px;
+        border-style: none;
+        cursor: pointer;
+        &:hover {
+            color: white;
+            background-color: #ffae00;
+        }
+    }
+    
+    
+    .botao {
+    
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        width: 300px;
+        margin: 0 auto 0 auto;
+        padding: .5rem;
+        background-color: #BA371A;
+        border-radius: 20px;
+        border-style: none;
+        cursor: pointer;
+            &:hover {
+                color: white;
+                background-color: #ffae00;
+        }
+    }
+
+    /*Footer*/
+
+    footer {
+        width: 100%;
+        height: 30rem;
+        background-color: #BA371A;
+    }
+    
+    .footer-docelita {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .footer-content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .docelita-logo-footer {
+        width: 12rem;
+        margin-left: 1rem;
+    }
+    
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        font-family: Roboto, sans-serif;
+        align-items: center;
+        
+    }
+    
+    .footer-content-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        
+       
+    }
+    
+    .social-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: .5rem;
+        padding: .10rem;
+    }
+    
+    .social-icon {
+        width: 40px;
+        padding: .50rem;
+        
+    }
+    
+    .social-icon:hover {
+        fill: #ffae00;
+    }
+    
+    .footer-text {
+        padding: 1rem;
+        font-family: Roboto, sans-serif;
+    }
+    
+    .copyright {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    main{
+        width: 100%;
+    }
+
+    #botao-menu {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 2rem;
+        width: 15rem;
+        margin: 0 auto 0 auto;
+        padding: .5rem;
+        background-color: #BA371A;
+        border-radius: 2rem;
+        border-style: none;
+        cursor: pointer;
+            &:hover {
+                color: white;
+                background-color: #ffae00;
+        }
+    }
+
+    .menu-field {
+        width: auto;
+        height: 80px;
+        background-color: #BA371A;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .logo {
+        width: 150px;
+        margin-left: 5%;
+        padding: 10px;
+    }
+    
+    .menu-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: helvetica;
+        margin-right: 1rem;
+    }
+    
+    .m-item {
+        padding-top: 1.8rem;
+        font-size: .90rem;
+        color: white;
+        &:hover{
+            color: #ffae00;
+            cursor: pointer;
+        }
+    }
+
+    /*Faixa 1*/
+
+    .faixa1 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between ;
+        align-items: center;
+    
+        height: 30rem;
+        width: auto;
+        
+    
+        background-image: url(../images/f1-bolo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .docelita-logo-banner {
+        width: 70%;
+        padding: .5rem;
+        margin: .5rem 2rem .5rem 2rem;
+    }
+    
+    .faixa1-card {
+    
+        background-color: #FFC9A1;
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 0rem;
+        padding: 1.5rem;
+        
+    }
+    
+    .faixa1-texts {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .titulo-f1 {
+        font-size: 2.5rem;
+        padding-bottom: .5rem;
+        line-height: 2.7rem;
+        color: #000000;
+    }
+    
+    .paragrafo-f1 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding-right: .5rem;
+    }
+    
+    /*Faixa 2*/
+
+    .faixa2 {
+
+        height: 107rem;
+        width: auto;
+        padding: 1rem;
+        
+    
+        background-color: #FFE1BE;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+    
+        
+        
+    }
+    
+    .f2-header {
+        margin: 1rem auto 0 auto;
+        font-size: 2rem;
+        color: #BA371A;
+    }
+    
+    .f2-card-collection {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        margin: .2rem auto .5rem auto;
+    
+       
+    }
+    
+    .f2-card {
+    
+        background-color: #FFC9A1;
+        height: 27rem;
+        width: 25rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .card-header {
+    
+        padding: 1rem 0 1rem 1.5rem;
+        font-size: 1.5rem;
+        color: #BA371A;
+    
+    
+    }
+    
+    .card-text {
+        padding: 0 1.5rem 0 1.5rem;
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+    
+    .card-image {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    /*Faixa 3*/
+
+    .faixa3 {
+
+        height: 25rem;
+        width: auto;
+        
+    
+        background-color: #BA371A;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: .1rem;
+
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .f3-image {
+        height: 100%;
+        display: none;
+        
+    }
+    
+    .f3-text-field {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .f3-title {
+        
+        padding: .5 auto .5 auto;
+        margin: 0 auto 0 auto;
+        font-size: 2rem;
+        align-items: center;
+        margin-left: 5.50rem;
+        width: 68%;
+    }
+    
+    .f3-texts {
+        
+        width: 75%;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+
+    /*Faixa 4*/
+
+    .faixa4 {
+        height: 25rem;
+        width: auto;
+        
+    
+        background-color: #FFE1BE;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5rem;
+    
+        color: #BA371A;
+       
+        
+    }
+    
+    .f4-title {
+    
+        font-size: 2rem;
+        padding-bottom: .9rem;
+    }
+    
+    .f4-text {
+        
+        font-size: 1.2rem;
+        text-align: justify;
+       
+    }
+
+    /*Faixa 5*/
+
+    .faixa5 {
+
+        height: 50rem;
+        width: auto;
+        
+    
+        background-color: #FFC9A1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 2rem;
+        
+    }
+    
+    .f5-image {
+        width: 100%;
+        height: auto;
+        border-radius: 2rem;
+        display: none;
+
+        
+    }
+    
+    .f5-text-field {
+    
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        
+    }
+    
+    .f5-title {
+        
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        color: #BA371A;
+    }
+    
+    .f5-main-text {
+        
+        
+        font-size: 1.2rem;
+        text-align: justify;
+        color: black;
+        line-height: 2rem;
+    }
+
+    /*Faixa 6*/
+
+    .faixa6 {
+
+        height: 75rem;
+        width: auto;
+    
+        background-color: #FFE1BE;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 2rem;
+        align-items: self-start;
+    }
+    
+    .f6-text {
+    
+        font-size: 1.5rem;
+        width: 25rem;
+        height: 10rem;
+        color: #9b3a24;
+        margin: 2rem;
+    
+    
+    }
+    
+    .adress-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2rem ;
+        background-color: #BA371A;
+        padding: 1.5rem;
+        width: 23rem;
+        height: 20rem;
+        color: white;
+        border-radius: 1rem;
+    }
+    
+    
+    .end-card-title {
+        font-size: 1.2rem;
+    
+    }
+    
+    .end-card-text {
+        padding-top: 7%;
+        font-size: 1rem;
+        line-height: 2rem;
+    
+    }
+    
+    .form-area {
+        background-color: #BA371A;
+        border-radius: 1rem;
+        width: 27rem;
+        height: 32rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    
+    .form-content {
+        font-family: Helvetica;
+        color: white;
+        font-size: 1.5rem;
+    
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    
+    label {
+        font-size: .9rem;
+        display: block;
+        margin: .5rem;
+        text-transform: uppercase;
+    }
+    
+    input, textarea {
+        padding: .5rem;
+        border-radius: 5px;
+        border-style: none;
+    }
+    
+    textarea {
+        width: auto;
+        height: 8rem;
+    }
+    
+    .botao-branco {
+        color: #BA371A;
+        font-weight: 600;
+        margin: 30px auto 30px auto;
+        width: 200px;
+        background-color: white;
+        border-radius: 20px;
+        border-style: none;
+        cursor: pointer;
+        &:hover {
+            color: white;
+            background-color: #ffae00;
+        }
+    }
+    
+    
+    .botao {
+    
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        width: 300px;
+        margin: 0 auto 0 auto;
+        padding: .5rem;
+        background-color: #BA371A;
+        border-radius: 20px;
+        border-style: none;
+        cursor: pointer;
+            &:hover {
+                color: white;
+                background-color: #ffae00;
+        }
+    }
+
+    /*Footer*/
+
+    footer {
+        width: 100%;
+        height: 30rem;
+        background-color: #BA371A;
+    }
+    
+    .footer-docelita {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+    }
+    
+    .footer-content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .docelita-logo-footer {
+        width: 12rem;
+        margin-left: 1rem;
+    }
+    
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        font-family: Roboto, sans-serif;
+        align-items: center;
+        
+    }
+    
+    .footer-content-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        
+       
+    }
+    
+    .social-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: .5rem;
+        padding: .10rem;
+    }
+    
+    .social-icon {
+        width: 40px;
+        padding: .50rem;
+        
+    }
+    
+    .social-icon:hover {
+        fill: #ffae00;
+    }
+    
+    .footer-text {
+        padding: 1rem;
+        font-family: Roboto, sans-serif;
+    }
+    
+    .copyright {
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+
+}
+
+
